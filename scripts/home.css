@@ -9,7 +9,7 @@ body {
 
 
 
-/* Home Header */
+/* -------------Home Header ------------*/
 .hHeader{
     height: auto;
     background-color: #fec;
@@ -43,6 +43,12 @@ body {
     min-width: 700px;
 }
 
+.hHNav2-2  > input {
+    position: absolute;
+    z-index: 10;
+    opacity: 1;
+} 
+
 .hHNav2-1 {
     font-family: sans-serif;
     color: #000;
@@ -54,7 +60,45 @@ body {
 .hHNav2-2 {
     position: absolute;
     opacity: 0;
+    width: 45px;
+    height: 40px;
+    /* background-color: gray; */
+    padding: 5% 7%;
 }
+
+
+.hNav-2-Ham {
+    position: absolute;
+    width: 96vw;
+    height: 10px;
+    background-color: white;
+    left: -2%;
+    top: 80%;
+}
+
+.hNav-2-Ham{
+    display: none;
+}
+.hNav-2-Ham > a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 35px 145px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+
+.hHNav2-2 > input {
+    display: none;
+}
+
+input[id="hNav2Hamburger"]:checked ~ .hNav-2-Ham {
+    display: block;
+    height: 300px;
+}
+
+
 
 @media only screen and (max-width: 1000px) {
     .hHNav2 {
@@ -72,7 +116,7 @@ body {
     .hHNav2-2 {
         position: static;
         opacity: 1;
-        width: 50px;
+        z-index: 2;
     }
 }
 
@@ -100,7 +144,7 @@ body {
 
 .hHMiddle-1-heading-1 {
     font-family: 'Nunito', sans-serif;
-    font-size: 45px;
+    font-size: 50px;
     line-height: 55px;
     letter-spacing: 2px;
 }
@@ -145,6 +189,39 @@ body {
    height: 100%;
    padding: 0% 10% 0% 1%;
 }
+
+
+@keyframes AnimInOut1 {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+   
+    25% {
+        transform: scale3d(0.70,.70,1);
+    }
+    
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+        
+    75% {
+        transform: scale3d(0.85,0.85,1);
+    }
+  
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+
+  }
+
+
+.hHMiddle-2:hover img , .hHMiddle-1-button-1:hover{
+    animation-name: AnimInOut1;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
+    transition: ease-in-out;
+}
+  
 
 
 @media only screen and (max-width: 1200px) {
@@ -245,6 +322,7 @@ body {
     text-align: center;
     line-height: 30px;
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -369,10 +447,11 @@ body {
 .hDemo1-Text {
     width: 70%;
     background-color: transparent;
-    font-family: Avenirltstd, sans-serif;
+    font-family: 'Nunito', sans-serif;
     color: #000;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
+    font-weight: bold;
     text-align: left;
 }
 
@@ -385,6 +464,15 @@ body {
 
 }
 
+
+.hDemo1-Button:hover {
+    animation-name: AnimInOut1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    transition: ease-in-out;
+  
+  }
+  
 
 
 /* ------------Increase Revenue----------- */
@@ -420,7 +508,6 @@ body {
 .hIRev-2-1 {
     width: 100%;
     text-align: left;
-    font-family: Avenirltstd, sans-serif;
     font-size: 20px;
 }
 
@@ -428,6 +515,7 @@ body {
     font-size: 25px;
     font-weight: bold;
     line-height: 10px;
+    font-family: 'Nunito Sans', sans-serif;
  }
 
  .hIRev-2-1 > div {
@@ -447,8 +535,9 @@ body {
 .hIRev-2-2-img {
     width: 27%;
     height: 100%;
-    max-width: 160px;
+    max-width: 150px;
 }
+
 
 .hIRev-2-2-img img {
     width: 100%;
@@ -468,6 +557,38 @@ body {
     font-weight: bold;
     line-height: 10px;
 }
+
+@keyframes AnimInOut2 {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+   
+    25% {
+        transform: scale3d(0.70,.70,1);
+    }
+    
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+        
+    75% {
+        transform: scale3d(0.85,0.85,1);
+    }
+  
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+
+  }
+
+
+.hIRev-2-2-img:hover img {
+    animation-name: AnimInOut2;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    transition: ease-in-out;
+}
+  
 
 
 @media only screen and (max-width: 1000px) {
@@ -494,6 +615,11 @@ body {
 
 .hIRev-2-1 {
     margin-bottom: 32px;
+}
+
+
+.hIRev-2-2 {
+    margin-bottom: 20px;
 }
 
 }
@@ -532,6 +658,7 @@ body {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 2%;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .hTO-1-1 > div:nth-child(2) {
@@ -645,13 +772,14 @@ body {
 .hDemo2-Text{
     width: 20%;
     background-color: transparent;
-    font-family: Avenirltstd, sans-serif;
+    font-family: 'nunito';
     color: #fa824c;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
     font-weight: 500;
     word-spacing: 2px;
+    font-weight: bold;
 }
 
 .hDemo2-Button-icon {
@@ -660,6 +788,15 @@ body {
     color: black;
     color: #fa824c;
 }
+
+.hDemo2-Button:hover {
+    animation-name: AnimInOut1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    transition: ease-in-out;
+}
+  
+
 
 /* ---------Footer Section-----------*/
 
@@ -695,14 +832,21 @@ body {
    margin: 11px 0px;
    text-align: left;
    text-decoration: none;
-   color: white;
+   color: hsla(0, 0%, 100%, 0.8);
+   font-family: "nunito";
+   font-weight: 600;
+}
+
+.hFC-2 > a:hover {
+    text-decoration: underline;
 }
 
 .hFC-2 > div {
-    font-weight: bold;
+    font-weight: 800;
     margin-bottom: 10px;
     color: white;
     font-size: 20px;
+    
 }
 
 
