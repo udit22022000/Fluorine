@@ -1,3 +1,6 @@
+body{
+    margin: 20px;
+}
 #nav{
     display: grid;
     grid-template-columns: 50% 100%;
@@ -90,8 +93,12 @@ button{
 }
 .withtext{
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    margin-top: 10px;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 15px;
+    margin: 20px;
+}
+#learnhow p{
+    font-size: 30px;
 }
 .whatourpartners{
     display: grid;
@@ -129,6 +136,37 @@ button{
     grid-template-columns: 60% 20%;
     margin:30px;
     font-size: 20px;
+    margin-bottom: 70px;
+    background-color: wheat;
 }
+#learnhow button{
+    width: 100px;
+    height: 70px;
+    margin-top: 10px;
+}
+#udercontet{
+    font-size: 15px;
+    display: grid;
+    grid-template-columns:30% 30% 30% ;
+    margin-bottom: 30px;
+}
+.footer{
+    display: grid;
+    grid-template-columns:50% 50%;
+}
+
+#footer-right img{
+    height: 100px;
+
+}
+#footer-right>a{
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-left: 150px;
+
+
+}
+
+
 
 
