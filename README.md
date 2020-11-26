@@ -31,6 +31,8 @@ AUTOMATED OPERATIONS:In this section, flex-box has been used for laying out the 
 
 Here mainly anchor tags are used to divert the user to different pages, in case the user wants to shift to a different page. Flexbox has been used here for deciding the positions on different devices of different sections like company, self-parking, Cities Contact, and Get the app that is present in the footer.
 
+![Image of home page](https://drive.google.com/drive/folders/1S2yOTxrKuMWV48v2FwqsFAYiUr87-E2B?usp=sharing)
+
 #### About Page
 
 In this page **javascript** is used to replace different divs containing different text uses of flex and grids are done to place different size images on their respective positions. Issues faced are 
