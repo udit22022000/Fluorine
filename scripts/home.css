@@ -626,7 +626,7 @@ input[id="hNav2Hamburger"]:checked ~ .hNav-2-Ham {
 
 /* ----Transparent Operations */
 .hTOperations {
-    height: 75vh;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -727,7 +727,7 @@ input[id="hNav2Hamburger"]:checked ~ .hNav-2-Ham {
 
 /* Payments */
 .hMPayments {
-    height: 75vh;
+    height: 100vh;
     border-bottom: 25px solid  #f4f6f8;
 }  
 
