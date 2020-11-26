@@ -15,6 +15,9 @@ This Project took 3 Days to complete and below is the insight of process and iss
 
 #### Home Page
 
+![](https://drive.google.com/drive/u/1/folders/1S2yOTxrKuMWV48v2FwqsFAYiUr87-E2B)
+
+
 **Header section**
 
 To create the header section mainly I have used flexbox, CSS positions, media queries to make the elements get adjusted according to the screen sizes. The main challenge that I faced was in replacing the navbar with a hamburger icon when the screen size goes below 800px. For resolving that part I have heavily used positions and display property. To add the scale in scale-out animation to the icon present in the header we used CSS animation property.
