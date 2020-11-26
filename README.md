@@ -39,4 +39,9 @@ In this page **javascript** is used to replace different divs containing differe
 1.***how to fit these images exactly using @media query so that that page work properly on different devices***
 2.***appearance and disapperance of divs by clicking different anchor tags***
 
-**Blog And Pricing**
+**Blog**
+in this page we are use grid and we are using anchors to each and every images and contact with social media and position on each line of heading and paras with resspective places make dufficulty.
+
+**pricing**
+in this page have huge images and headings and paras. there is simple pricing block there are so much content with different sizes to put those things in one place and maintain them with proper line spacing i face difficulty.and remaing part i use grid and anchors to create remaing part.
+              
