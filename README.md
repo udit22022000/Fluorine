@@ -13,41 +13,43 @@ To create html elements of this project basic CSS tools are used like **Animatio
 
 This Project took 3 Days to complete and below is the insight of process and issues faced :
 
-##### *Home Page*
+########### **Home Page**
 
-**Header section**
+*Header section*
 
 ![](AirGarage/Home/header.png)
 
 
 To create the header section mainly I have used flexbox, CSS positions, media queries to make the elements get adjusted according to the screen sizes. The main challenge that I faced was in replacing the navbar with a hamburger icon when the screen size goes below 800px. For resolving that part I have heavily used positions and display property. To add the scale in scale-out animation to the icon present in the header we used CSS animation property.
 
-**Map and demo section**
+Here for changing the color, saturation, sepia, contrast, opacity, and brightness of the company partner icons filter property has been used.
+
+*Map and demo section*
 
 ![](AirGarage/Home/map_and_demo.png)
 
  To create the map and demo section we have used flexbox, media queries to make the elements get adjusted according to the screen sizes. Here to display the map we have used a map gif. For the demo section, we have used a button, upon clicking that button user will be diverted to the demo form.
  
 
-**MIddle Section 1**
+*MIddle Section 1*
 
 ![](AirGarage/Home/Increase_revenue.png)
 
 In this section, flex-box has been used for laying out the elements and media queries for changing the flex-direction of elements according to the screen sizes. For arranging the text we have used flex and used several google fonts for styling the text. On the left side for displaying the image at the center of the left section, we have used justify-content and align-items property.
 
-**MIddle Section 2**
+*MIddle Section 2*
 
 ![](AirGarage/Home/Transparent_operations.png)
  
 In this section, flex-box has been used for laying out the elements and media queries for changing the flex-direction of elements according to the screen sizes. For scaling in and out the icons present on the left-hand side we have used CSS animation property. For changing the font style google fonts are used.
 
-**Footer**
+*Footer*
 
 ![](AirGarage/Home/footer.png)
 
 Here mainly anchor tags are used to divert the user to different pages, in case the user wants to shift to a different page. Flexbox has been used here for deciding the positions on different devices of different sections like company, self-parking, Cities Contact, and Get the app that is present in the footer.
 
-#### *About Page*
+########## **About Page**
 
 ![](AirGarage/About/1.jpeg)
 
@@ -55,13 +57,13 @@ In this page **javascript** is used to replace different divs containing differe
 1.***how to fit these images exactly using @media query so that that page work properly on different devices***
 2.***appearance and disapperance of divs by clicking different anchor tags***
 
-###### *Blog*
+########## **Blog**
 
 ![](AirGarage/blog_pricing/1.jpeg)
 
 in this page we are use grid and we are using anchors to each and every images and contact with social media and position on each line of heading and paras with resspective places make dufficulty.
 
-###### *Pricing*
+######### **Pricing**
 
 ![](AirGarage/blog_pricing/2.jpeg)
 
