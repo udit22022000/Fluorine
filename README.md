@@ -8,3 +8,11 @@ The pages created are
 4. Pricing
 
 To create html elements of this project basic CSS tools are used like **Animations, Flex, Grid etc along with some javascripts**
+
+**The main aim to create these pages is to make them look similar to original websites's pages as it is a part of our Unit 1 evaluation**
+
+This Project took 3 Days to complete and below is the day by description of the completion of this project :
+
+###### DAY 1
+
+on day one the work is divided among team members and a structure is prepared. 
