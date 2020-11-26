@@ -6,4 +6,5 @@ The pages created are
 2. About
 3. Blog
 4. Pricing
+
 To create html elements of this project basic CSS tools are used like **Animations, Flex, Grid etc along with some javascripts**
