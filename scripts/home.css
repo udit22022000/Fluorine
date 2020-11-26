@@ -477,7 +477,7 @@ input[id="hNav2Hamburger"]:checked ~ .hNav-2-Ham {
 
 /* ------------Increase Revenue----------- */
 .hIRevenue {
-    height: 99vh;
+    height: 115vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
