@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
-    .flex-container5 ,.flex-container2,.flex-container3, .fund_and_inv  {
+    .flex-container5 ,.flex-container2,.flex-container3  {
       flex-direction: column;
-      margin-left:auto;
+      
     }
   }
 
@@ -61,7 +61,7 @@
         display: flex;
         max-width: 1300px;
         flex-wrap: wrap;
-        margin-left: 9.25%;
+        margin-left: auto;
     }
     .flex-container3 div {
         max-width: 250px;
@@ -81,17 +81,20 @@
         gap: 30px;
         font-size: 20px;
     }
+    .flex-container4 p {
+        font-weight: 700;
+    }
     .fund_and_inv {
         text-align: center;
         float: left;
         max-width: 600px;
-        margin-left: 4%;
+        margin-left: auto;
         margin-top: 8%;
     }
     .fund_and_inv img {
         float: left;
         max-width: 100px;
-        margin-left: 5%;
+        margin-left: 15%
 
     }
     .flex-container5 {
