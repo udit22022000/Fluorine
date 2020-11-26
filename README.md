@@ -37,4 +37,4 @@ In this page **javascript** is used to replace different divs containing differe
 1.***how to fit these images exactly using @media query so that that page work properly on different devices***
 2.***appearance and disapperance of divs by clicking different anchor tags***
 
-### Blog And Pricing
+**Blog And Pricing
