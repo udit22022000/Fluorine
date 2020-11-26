@@ -13,7 +13,7 @@ To create html elements of this project basic CSS tools are used like **Animatio
 
 This Project took 3 Days to complete and below is the insight of process and issues faced :
 
-########### **Home Page**
+##### **Home Page**
 
 *Header section*
 
@@ -49,7 +49,7 @@ In this section, flex-box has been used for laying out the elements and media qu
 
 Here mainly anchor tags are used to divert the user to different pages, in case the user wants to shift to a different page. Flexbox has been used here for deciding the positions on different devices of different sections like company, self-parking, Cities Contact, and Get the app that is present in the footer.
 
-########## **About Page**
+##### **About Page**
 
 ![](AirGarage/About/1.jpeg)
 
@@ -57,13 +57,13 @@ In this page **javascript** is used to replace different divs containing differe
 1.***how to fit these images exactly using @media query so that that page work properly on different devices***
 2.***appearance and disapperance of divs by clicking different anchor tags***
 
-########## **Blog**
+##### **Blog**
 
 ![](AirGarage/blog_pricing/1.jpeg)
 
 in this page we are use grid and we are using anchors to each and every images and contact with social media and position on each line of heading and paras with resspective places make dufficulty.
 
-######### **Pricing**
+##### **Pricing**
 
 ![](AirGarage/blog_pricing/2.jpeg)
 
