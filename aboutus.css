@@ -201,5 +201,17 @@
         color: dodgerblue;
     }
 
+    .fC-4_heading {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Nunito Sans', sans-serif;
 
+    }
 
+    
+
+    .flex-container4 > div > div:nth-child(2){
+        font-family: 'Roboto Slab', serif;
+
+    }

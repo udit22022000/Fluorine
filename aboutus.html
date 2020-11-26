@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <link rel="stylesheet" href="aboutus.css">
     
 </head>
 <body>
     <div id="topdiv">
-        <a href="https://airgara.ge/" style="cursor: pointer;"><img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5d55f8a49a649a59aab64b1c_airgarage-logo.png"  alt="airgarage"></a>
+        <a href="home.html" style="cursor: pointer;"><img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5d55f8a49a649a59aab64b1c_airgarage-logo.png"  alt="airgarage"></a>
     </div>
     <div id="forheading">
         <p>About Airgarage</p>
@@ -177,13 +183,21 @@
         <p>Interview Process</p>
     </div>
     <div class="flex-container4">
-        <div onclick="apply()" style="cursor: pointer;">Apply
+        <div onclick="apply()">
+            <div class="fC-4_heading">
+                Apply&nbsp;<i class="fa fa-angle-down" style="font-size:18px"></i>
+            </div>
+
             <div id="apply" style="display: none;">
                 <p>We'll start by reviewing your resume. We love unique backgrounds so don't count yourself out if your experience doesn't perfectly match the job description - use the application to highlight why you're the right person for the job!</p>
                 <p>Include anything that you think showcases your skills - LinkedIn, GitHub, portfolio, websites, etc.</p>
             </div>
         </div>
-        <div onclick="chat()" style="cursor: pointer;">Chat with us
+
+        <div onclick="chat()">
+            <div class="fC-4_heading">
+                Chat with us&nbsp;<i class="fa fa-angle-down" style="font-size:18px"></i>
+            </div>
             <div id="chat" style="display: none;">
                 <p>We'll work with you to schedule a meeting - over coffee if you're in SF or a phone call if you're remote.</p>
                 <p>This is your chance to tell us what you're passionate about, your accomplishments, and what kind of challenges you're looking for.</p>
@@ -191,19 +205,30 @@
                 <p>Tip: feel free to dress casually for the interview - we do in the office!</p>
             </div>
         </div>
-        <div onclick="show()" style="cursor: pointer;">Show us your skills
+        <div onclick="show()">
+            <div class="fC-4_heading">
+                Show us your skills&nbsp;<i class="fa fa-angle-down" style="font-size:18px"></i>
+            </div>
             <div id="show" style="display: none;">
                 <p>We've designed role-specific, realistic challenges to better understand how you work, and for you to sample what the job looks like.</p>
                 <p>Depending on the position you're applying for these can be sales related, drafting emails, writing code, design samples, etc.</p>
             </div>
         </div>
-        <div onclick="meet()" style="cursor: pointer;">Meet the team
+        <div onclick="meet()">
+            <div class="fC-4_heading">
+                Meet the team&nbsp;<i class="fa fa-angle-down" style="font-size:18px"></i>
+            </div>
             <div id="meet" style="display: none;">
                 <p>Sit down (or Zoom meet) with several members of the team you'd be working with for a 30-60 minute collaborative discussion.</p>
                 <p>Often, these meetings will start off with a 10 minute presentation about an assigned topic relevant to your job, the rest of the time is a two way conversation about how you work and what your goals are. Bring lots of questions - you're interviewing us as well!</p>
             </div>
         </div>
-        <div onclick="reference()" style="cursor: pointer;">Refrences & offer
+
+        <div onclick="reference()">
+            <div class="fC-4_heading">
+                Refrences & offer&nbsp;<i class="fa fa-angle-down" style="font-size:18px"></i>
+            </div>
+
             <div id="reference" style="display: none;">
                 <p>We like to hear from people who've worked with you in your current role, or past positions - ideally a previous supervisor.</p>
                 <p>Once we're confident that we have a fit, we move fast to send out an official offer letter!</p>
